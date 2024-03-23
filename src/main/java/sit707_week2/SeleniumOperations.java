@@ -49,7 +49,7 @@ public class SeleniumOperations {
 	
 	public static void trustpilotinstitute_signup_page(String url) {
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\bksol\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\vs code\\chromedriver-win64\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
@@ -94,7 +94,7 @@ public class SeleniumOperations {
 		/*
 		 * Take screenshot using selenium API.
 		 */
-		takeSsAndSave(driver,"D:\\vs code\\dark\\java_assignment\\week2\\2.1P-resources\\ss\\");
+		takeSsAndSave(driver,"D:\\vs code\\ss\\");
 		
 		
 		// Sleep a while
@@ -106,7 +106,7 @@ public class SeleniumOperations {
 	
 	public static void dribbble_signup_page(String url) {
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\bksol\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\vs code\\chromedriver-win64\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
@@ -161,7 +161,7 @@ public class SeleniumOperations {
 		/*
 		 * Take screenshot using selenium API.
 		 */
-		takeSsAndSave(driver,"D:\\vs code\\dark\\java_assignment\\week2\\2.1P-resources\\ss\\");
+		takeSsAndSave(driver,"D:\\vs code\\ss\\");
 		
 		// Sleep a while
 		sleep(2);
